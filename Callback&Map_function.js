@@ -1,5 +1,10 @@
-//01 Function doWhatEverYouWant(Obj, cb)
+                            /**************************** 
+                                  Javascript Function
+                            *****************************/
 
+/*============= Callback function===============
+================================================
+================= Example 01==================*/
 var me = {
     name: 'Mim',
     age: 20,
@@ -14,14 +19,13 @@ function doWhatEverYouWant(obj, cb) {
         console.log('Your are not adult.');
     }
 }
-
 doWhatEverYouWant(me, function(email){
     console.log('Your email is ' + email);
 });
 
-
-
-//02 Impliment Map Function
+/*==================================================*/
+     //02 Impliment Map Function
+/*============ Customize Map Function =============*/
 
 var arr=[0,1,2,3,4,5,6,7,8,9];
 function myMap(arr, cb) {
