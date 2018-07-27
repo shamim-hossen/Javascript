@@ -24,8 +24,8 @@ doWhatEverYouWant(me, function(email){
 });
 
 /*==================================================*/
-     //02 Impliment Map Function
-/*============ Customize Map Function =============*/
+               // Map Function
+/*===========Customize Map Function 02  ============*/
 
 var arr=[0,1,2,3,4,5,6,7,8,9];
 function myMap(arr, cb) {
