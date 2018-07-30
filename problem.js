@@ -1,7 +1,7 @@
 //s1 =2 4 6 8 10 12 14 ...
 
 var series = "";
-var name = "mim ";
+var name = "";
 var n;
 for (var i=1;i<10;i++){
     n = i*2;
