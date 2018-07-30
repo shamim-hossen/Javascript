@@ -9,13 +9,9 @@ for (var i=1;i<10;i++){
 }
 console.log(name);
 
+//default empty string
+console.log();
 
-//s2 = 1 4 7 10 13 16...
-
-series ="1 ";
-n = 1;
-for(var i=1;i<10;i++){
-    n = n+3;
-    series = series + n + " ";
-}
-console.log("series 2 =",series);
+//multiple space
+var name = 'Java  script';
+console.log(name);
