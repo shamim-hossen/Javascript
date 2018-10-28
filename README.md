@@ -1,3 +1,3 @@
 
 ## *Javascript*  
-``### Function doWhatEverYouWant(Obj, cb)   ``
+### *Function doWhatEverYouWant(Obj, cb)*
