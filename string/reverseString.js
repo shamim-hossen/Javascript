@@ -47,3 +47,10 @@ function reverseString(str) {
     }
     return reversed;
 }
+
+
+// Bonus (Advanced/Creative) Ways:
+// Using eval() + Array reverse (unsafe and not recommended)
+// Using reduceRight()
+const str = "hello";
+const reversed = str.split("").reduceRight((acc, char) => acc + char, "");
